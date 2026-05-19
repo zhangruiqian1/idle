@@ -1,0 +1,1 @@
+export const SAVE_TIME_OUT = 1000 * 60

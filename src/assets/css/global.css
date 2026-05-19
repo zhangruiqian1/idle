@@ -1,0 +1,93 @@
+/* 全局默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: #212D47;
+}
+
+.card {
+  padding: 6px;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  background-color: #17233D;
+  color: white;
+}
+
+
+/* ========== 全局暗色调滚动条 ========== */
+/* 滚动条整体宽度 */
+::-webkit-scrollbar {
+  width: 8px; /* 垂直滚动条宽度 */
+  height: 8px; /* 水平滚动条高度 */
+}
+
+/* 滚动条轨道（背景） */
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* 暗黑色轨道 */
+  border-radius: 4px;
+}
+
+/* 滚动条滑块（可拖动部分） */
+::-webkit-scrollbar-thumb {
+  background: #444444; /* 深灰色滑块 */
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+/* 滑块悬浮效果（更深色） */
+::-webkit-scrollbar-thumb:hover {
+  background: #666666; /* 中灰色悬浮 */
+}
+
+/* 滚动条角落（横竖交汇位置） */
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
+.white {
+  color: #f3f3f3 !important;
+}
+
+.red {
+  color: #f56c6c !important;
+}
+
+.blue {
+  color: #409eff !important;
+}
+
+.green {
+  color: #67c23a !important;
+}
+
+.yellow {
+  color: #e6a23c !important;
+}
+
+.orange {
+  color: #ff7d00 !important;
+}
+
+.pink {
+  color: #f472b6 !important;
+}
+
+.purple {
+  color: #9370db !important;
+}
+
+
+:deep(.dark-radio-active) {
+  color: #fff !important;
+  background: #404068 !important;
+  border-radius: 4px !important;
+}
+:deep(.ant-radio-button-wrapper:hover) {
+  color: #e0e0ff !important;
+}
