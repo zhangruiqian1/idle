@@ -33,7 +33,7 @@ const onAttackCallback = (role: Role, value: number) => {
 }
 
 const onHurtCallback = (role: Role, value: number) => {
-  console.log('受伤回调', `${props.role.name}-${props.role.id}`)
+  console.log('受伤回调111', `${props.role.name}-${props.role.id}`)
   popTextRef.value?.handleDamage(value)
   playHurt()
 }
